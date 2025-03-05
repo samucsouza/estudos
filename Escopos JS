@@ -1,0 +1,28 @@
+// Função de bloco
+
+// var - escopo global
+// let - escopo de bloco
+// const - escopo de bloco
+
+
+// bloco
+
+if(true){
+    const myName = "Souza";  
+    console.log(myName);    
+
+}
+
+// Função
+
+const myName = ()=> {
+    const name = "Souza";
+    
+}
+
+console.log(name);
+  
+
+
+
+

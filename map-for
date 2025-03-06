@@ -1,0 +1,33 @@
+// ForEach estrutura de repetição usada para iterar sobre elementos
+ 
+const frutas = [
+    {nome: "banana", preco: 2},
+    {nome: "maçã", preco: 4},
+    {nome: "uva", preco: 5},
+];
+
+// frutas.forEach((index, item)=>{
+//     console.log(index, item);
+// })
+
+frutas.map((fruta)=>{
+    console.log(fruta);
+})
+
+const desconto = frutas.map((item)=>({
+    ...item,
+    preco: item.preco * 0.9 // 10% de desconto
+
+}));
+
+console.log(desconto);
+
+
+
+
+
+  
+
+
+
+

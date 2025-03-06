@@ -1,0 +1,30 @@
+// Tipos de variveis
+
+// var - escopo global - Podem ser acessadas de qualquer parte do código
+// let e const - Só pode ser acessada dentro do bloco onde foi declarada
+
+// Exemplo de escopo de bloco
+
+if(true){
+    var myName = "Samuel";  
+        
+}
+console.log("Meu nome é " + myName);   
+
+
+// Função
+
+const myLastName = ()=> {
+    const lastName = "Souza";
+    console.log("Meu sobrenome é " + lastName);    
+}
+myLastName();
+
+
+
+
+  
+
+
+
+

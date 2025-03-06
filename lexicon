@@ -1,0 +1,21 @@
+// Uma função tem acesso às variáveis declaradas no seu próprio 
+// escopo e nos escopos superiores onde foi definida.
+// Evita conflitos entre variáveis de diferentes partes do código.
+
+
+const external = ()=>{
+    const car = "Ferrari";
+
+    const internal = ()=>{
+        // const car = "Porche";
+        // console.log(car.toUpperCase());
+        
+        const extra = ()=>{
+            console.log(car.toUpperCase());
+        }
+        extra();
+    }
+    internal();
+}
+
+external(); 
